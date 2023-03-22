@@ -1,7 +1,7 @@
 
 
     
-       
+num_uno=float(input("Ingrese un número: "))         
 while True:
 
     num_uno=float(input("Ingrese un número: "))    

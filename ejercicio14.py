@@ -1,4 +1,3 @@
-#Se tienen 4 tipos de productos, bebidas a $1900, barras energéticas a $1000, papas $1600 y galletas a $1300.
 tiposProductos = ['bebidas','barras','papas','galletas']
 preciosProductos = [1900,1000,1600,1300]
 print("Tenemos una variada selecciond de productos: ")
@@ -12,6 +11,7 @@ if produc_comprado == 0:
     precioProducto = 1900
     if presupuesto<precioProducto:
         print("Saldo insufisiente...")
+       
     else:
         print("Su compra fue de Bebidas por $1.900... le que un saldo de : ",presupuesto-precioProducto)    
 elif produc_comprado == 1:
@@ -34,7 +34,3 @@ elif produc_comprado == 3:
         print("Su compra fue de galletas por $1.300... le que un saldo de : ",presupuesto-precioProducto)         
 else:
     print("El código del producto no es correcto...")
-
-
-
- 
